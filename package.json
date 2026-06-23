@@ -1,7 +1,7 @@
 {
-  "name": "ochi-cli",
+  "name": "ocean-ochi-skill-cli",
   "version": "1.0.0",
-  "description": "Ochi company CLI — install Oracle skills + company tools",
+  "description": "ocean-ochi skill CLI — install Oracle skills + company tools",
   "type": "module",
   "bin": {
     "ochi": "./src/cli/index.ts"
