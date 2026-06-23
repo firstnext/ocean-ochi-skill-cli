@@ -8,14 +8,17 @@ CLI สำหรับติดตั้ง **Oracle skills** + **company skills
 ## Install / Run
 
 ```bash
-# รันตรงจาก registry (ไม่ต้องติดตั้งถาวร)
-bunx --bun ocean-ochi-skill-cli install -p lab -y
+# วิธีหลัก — รันตรงจาก GitHub (ไม่ต้อง publish npm, ไม่ต้องติดตั้งถาวร)
+bunx --bun ocean-ochi-skill-cli@github:firstnext/ocean-ochi-skill-cli#v1.0.0 install -p lab -y
 
 # หรือ clone มารันจาก source
 git clone https://github.com/firstnext/ocean-ochi-skill-cli.git
 cd ocean-ochi-skill-cli
 bun install
 bun run src/cli/index.ts install -p lab -y
+
+# (ภายหลังถ้า publish ขึ้น npm registry แล้ว)
+# bunx --bun ocean-ochi-skill-cli install -p lab -y
 ```
 
 คำสั่งด้านบนเทียบเท่ากับ:
