@@ -5,10 +5,12 @@ import { existsSync, readdirSync, mkdirSync, copyFileSync, statSync } from 'fs';
 import * as p from '@clack/prompts';
 
 const ORACLE_CLI = 'arra-oracle-skills';
+const DEFAULT_ORACLE_VERSION = '26.5.16';
 const SKILLS_DIR = join(import.meta.dir, '../../skills');
 
-async function installOracleSkills(profile: string, yes: boolean) {
-  const args = [ORACLE_CLI, 'install', '-g', '--profile', profile];
+async function installOracleSkills(profile: string, version: string, agent: string, yes: boolean) {
+  const pkgRef = version ? `${ORACLE_CLI}@${version}` : ORACLE_CLI;
+  const args = [pkgRef, 'install', '-g', '--profile', profile, '--agent', agent];
   if (yes) args.push('-y');
 
   p.log.step(`Running: bunx --bun ${args.join(' ')}`);
@@ -65,6 +67,8 @@ export function registerInstall(program: Command, version: string) {
     .description('Install Oracle skills + Ochi company skills to Claude Code')
     .option('-p, --profile <name>', 'Oracle skill profile (minimal, standard, full, lab)', 'standard')
     .option('-y, --yes', 'Skip confirmation prompts')
+    .option('--agent <name>', 'Target agent (claude-code, cursor, opencode, ...)', 'claude-code')
+    .option('--oracle-version <ver>', `arra-oracle-skills version (empty = latest)`, DEFAULT_ORACLE_VERSION)
     .option('--oracle-only', 'Install Oracle skills only (skip company skills)')
     .option('--ochi-only', 'Install Ochi company skills only (skip Oracle)')
     .action(async (options) => {
@@ -74,8 +78,9 @@ export function registerInstall(program: Command, version: string) {
 
       try {
         if (!options.ochiOnly) {
-          p.log.info(`Installing Oracle skills (profile: ${options.profile})`);
-          await installOracleSkills(options.profile, options.yes ?? false);
+          const verLabel = options.oracleVersion || 'latest';
+          p.log.info(`Installing Oracle skills (profile: ${options.profile}, version: ${verLabel}, agent: ${options.agent})`);
+          await installOracleSkills(options.profile, options.oracleVersion ?? '', options.agent, options.yes ?? false);
         }
 
         if (!options.oracleOnly) {
