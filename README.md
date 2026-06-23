@@ -70,6 +70,10 @@ arra-oracle-skills@26.5.16 install -g --profile lab --agent claude-code -y
 
 วาง skill ของบริษัทไว้ที่ `src/skills/<skill-name>/` — ตอน `install` จะถูก copy ไป `~/.claude/skills/`
 
-## License
+## Credits & License
 
-MIT
+**MIT** — ดู [LICENSE](./LICENSE)
+
+โปรเจกต์นี้ fork/derive จาก [`arra-oracle-skills-cli`](https://github.com/Soul-Brews-Studio/arra-oracle-skills-cli)
+(© 2025-2026 Nat Weerawan, Soul Brews Studio — MIT) และ redistribute เนื้อ skill ใน `skills/`
+ภายใต้เงื่อนไข MIT (เก็บ copyright + license notice เดิมไว้ครบ) — ขอบคุณงานต้นทาง 🙏
