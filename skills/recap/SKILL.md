@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: recap
 description: '[standard] v26.5.16 L-SKLL | Session orientation and awareness — retro summaries, handoffs, git state, focus. Use when starting a session, after /jump, lost your place, switching context, or when user asks "now", "where are we", "what are we doing", "status", "recap". Do NOT trigger for "standup" or "morning check" (use /standup), or session mining "dig", "past sessions" (use /dig).'
 argument-hint: "[--now | --deep]"

@@ -1,7 +1,7 @@
 # ocean-ochi-skill-cli
 
 CLI สำหรับติดตั้ง **Oracle skills** + **company skills** ลง Claude Code (และ AI coding agents อื่น)
-เป็น wrapper ครอบ [`arra-oracle-skills`](https://www.npmjs.com/package/arra-oracle-skills) (MIT, Soul-Brews-Studio) แล้วเสริม company skills จาก `src/skills/`
+เป็น wrapper ครอบ [`arra-oracle-skills`](https://www.npmjs.com/package/arra-oracle-skills) (MIT) แล้วเสริม company skills จาก `src/skills/`
 
 > ⚠️ **ต้องใช้ [Bun](https://bun.sh)** — bin เป็น TypeScript + shebang `#!/usr/bin/env bun` เรียกผ่าน `bunx --bun` ไม่ใช่ `npx`
 
@@ -74,6 +74,5 @@ arra-oracle-skills@26.5.16 install -g --profile lab --agent claude-code -y
 
 **MIT** — ดู [LICENSE](./LICENSE)
 
-โปรเจกต์นี้ fork/derive จาก [`arra-oracle-skills-cli`](https://github.com/Soul-Brews-Studio/arra-oracle-skills-cli)
-(© 2025-2026 Nat Weerawan, Soul Brews Studio — MIT) และ redistribute เนื้อ skill ใน `skills/`
-ภายใต้เงื่อนไข MIT (เก็บ copyright + license notice เดิมไว้ครบ) — ขอบคุณงานต้นทาง 🙏
+โปรเจกต์นี้ derive จาก `arra-oracle-skills` (MIT) และ redistribute เนื้อ skill ใน `skills/`
+ภายใต้เงื่อนไข MIT — copyright ของผู้สร้างต้นทางเก็บไว้ครบใน [LICENSE](./LICENSE) ตามที่ MIT กำหนด

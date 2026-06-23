@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: go
 description: '[standard] v26.5.16 L-SKLL | Manage Oracle skills — list, install, remove, find, switch profiles, update. Use when user says "go", "install skill", "remove skill", "find skill", "switch profile", "go list", "go update", "go install", "go find". Single entry point for all skill management.'
 argument-hint: "[list] | <standard|full|lab|cleanup|update> | install|remove|find <skill...>"

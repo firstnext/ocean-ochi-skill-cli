@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: xray
 description: '[lab] v26.5.16 L-SKLL | X-ray deep scan — inspect Claude Code auto-memory, installed skills, or session history. Use when user says "xray", "x-ray", "memory", "scan memory", "what do you remember", "show memories", "memory stats", "forget", "list skills", "installed skills", "session history", or wants to inspect what the AI remembers across sessions. Do NOT trigger for Oracle vault/ψ (use /trace) or session handoffs (use /inbox).'
 argument-hint: "[memory|skills|sessions]"

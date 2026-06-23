@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: learn
 description: '[standard] v26.5.16 L-SKLL | Explore a codebase with parallel Haiku agents — clone, read, and document. Modes — --fast (1 agent), default (3), --deep (5). Use when user says "learn [repo]", "explore codebase", "study this repo", or shares a GitHub URL to study. Do NOT trigger for finding projects (use /trace), session mining (use /dig), or cloning for active development (use /incubate).'
 argument-hint: "<repo-url> [--fast | --deep]"

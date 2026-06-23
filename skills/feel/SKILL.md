@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: feel
 description: '[lab] v26.5.16 L-SKLL | "Capture how the system feels — energy, momentum, burnout, breakthrough. Emotional intelligence for Oracle-human collaboration. Use when user says ''feel'', ''how are we'', ''energy check'', ''burnout'', ''momentum'', or wants emotional awareness of the work."'
 argument-hint: "[--deep | --log]"

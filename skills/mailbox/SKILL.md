@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: mailbox
 description: '[lab] v26.5.16 L-SKLL | Persistent agent mailbox — store findings, standing orders, and context for team agents across sessions. Use when user says "mailbox", "agent memory", "standing orders", "what did scout find", or wants to manage persistent agent knowledge.'
 argument-hint: "[read <agent> | write <agent> | orders <agent> | list | load <agent>]"

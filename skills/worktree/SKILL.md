@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: worktree
 description: '[lab] v26.5.16 L-SKLL | Work in an isolated git worktree — safe parallel editing, experimental branches, throwaway spikes. Use when user says "worktree", "isolate", "safe branch", "spike", "experiment", or wants to work without touching main.'
 argument-hint: "[<name> | list | exit | clean]"

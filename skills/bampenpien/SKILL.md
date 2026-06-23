@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: bampenpien
 description: '[standard] v26.5.16 L-SKLL | "บำเพ็ญเพียร — diligent practice. A guided conversation between human and Oracle about doing hard things without knowing why. Like /awaken but repeatable — a practice, not a birth. Use when user says ''bampenpien'', ''บำเพ็ญเพียร'', ''why am I doing this'', ''hard work'', ''keep going'', ''what am I building'', or needs to reconnect with purpose through difficulty."'
 argument-hint: "[--reflect | --history | --share]"

@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: who-are-you
 description: '[core] v26.5.16 L-SKLL | Know ourselves — show current AI identity, model info, session stats, and Oracle philosophy. Use when user asks "who are you", "who", "who we are", "what model", or wants to check current AI identity and session context. Do NOT trigger for "what is oracle" (use /about-oracle), "philosophy" or "principles" (use /philosophy), or general project questions.'
 ---

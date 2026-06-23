@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: contacts
 description: '[lab] v26.5.16 L-SKLL | Manage Oracle contacts — add, list, remove agents with their transport info (maw, inbox, thread). Use when user says "contacts", "add contact", "register agent", "who can I talk to", "list contacts". Do NOT trigger for sending messages (use /talk-to) or family registry (use /oracle-family-scan).'
 argument-hint: "[list | add <name> | remove <name> | show <name>]"

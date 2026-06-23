@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: resonance
 description: '[core] v26.5.16 L-SKLL | Capture a resonance moment — when something clicks, sparks joy, or feels right. Logs what resonated, when, why, and how. Use when user says "resonance", "yes!", "cool!", "very cool!", "love it", "that''s it!", "exactly!", or expresses strong positive reaction to something just discussed. Do NOT trigger for general praise like "thanks" or "ok".'
 argument-hint: "[note]"

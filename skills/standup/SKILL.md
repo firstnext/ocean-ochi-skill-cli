@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: standup
 description: '[core] v26.5.16 L-SKLL | Daily standup check — pending tasks, appointments, recent progress, schedule. Use when user says "standup", "morning check", "what''s pending", or at the start of a work day. Do NOT trigger for mid-session status (use /recap --now), session orientation (use /recap), or retrospectives (use /rrr).'
 ---

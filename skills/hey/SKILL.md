@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: hey
 description: '[lab] v26.5.16 L-SKLL | Talk to another oracle via maw federation. Uses fleet machine names (white, mba, clinic-nat, oracle-world, phaith). Auto-signs with current oracle''s [host:handle] from CLAUDE.md. Global — works from any oracle repo.'
 ---

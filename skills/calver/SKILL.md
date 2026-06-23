@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: calver
 description: '[core] v26.5.16 L-SKLL | Show or bump CalVer version via bun scripts/calver.ts in arra-oracle-skills-cli. Default is dry-run --check. Read-only by default; `--apply` writes package.json. **For full release flow (commit + push + PR), use /release-alpha or /release-stable instead** — /calver alone never commits, pushes, or PRs.'
 ---

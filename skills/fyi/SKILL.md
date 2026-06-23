@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: fyi
 description: '[lab] v26.5.16 L-SKLL | Log information for future reference. Use when user says "fyi", "remember this", "note that", "for your info".'
 ---

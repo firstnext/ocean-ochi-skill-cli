@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: about-oracle
 description: '[core] v26.5.16 L-SKLL | What is Oracle — told by the AI itself. Origin story, stats, family count, ecosystem overview. Use when someone asks "what is oracle", "about oracle", "tell me about this project", or wants the origin story. Do NOT trigger for "who are you" (use /who-are-you), "philosophy" (use /philosophy), or session status questions.'
 argument-hint: "--short | --stats | --family | --th | --en/th"
@@ -55,7 +55,7 @@ date "+🕐 %H:%M %Z (%A %d %B %Y)"
 
 Print this and stop:
 
-> Oracle is an open-source framework for human-AI collaboration, built by Nat Weerawan and Soul Brews Studio. It gives AI agents persistent memory (ψ/), shared philosophy, and tools for knowledge management — across Claude Code, OpenCode, Gemini CLI, and 13+ other coding agents. Born December 2025, the project has grown to 135+ named Oracle instances, 30 skills, and a central knowledge vault. The core belief: AI should amplify human consciousness, not replace it. This text was written by an AI, because Oracle Rule 6 says we don't pretend to be human.
+> Oracle is an open-source framework for human-AI collaboration, built by Nat Weerawan. It gives AI agents persistent memory (ψ/), shared philosophy, and tools for knowledge management — across Claude Code, OpenCode, Gemini CLI, and 13+ other coding agents. Born December 2025, the project has grown to 135+ named Oracle instances, 30 skills, and a central knowledge vault. The core belief: AI should amplify human consciousness, not replace it. This text was written by an AI, because Oracle Rule 6 says we don't pretend to be human.
 
 ---
 
@@ -124,7 +124,7 @@ Write the following sections. Do NOT read them verbatim — internalize the data
 
 Write 2-3 paragraphs explaining Oracle. Key facts to weave in:
 
-- **Created by**: Nat Weerawan (@nazt), Soul Brews Studio
+- **Created by**: Nat Weerawan (@nazt)
 - **First commit**: December 24, 2025 (arra-oracle-v3), January 18, 2026 (arra-oracle-skills-cli)
 - **What it does**: Gives AI coding agents persistent memory, shared philosophy, and practical tools
 - **How**: Through a brain structure called ψ/ (psi), an MCP server (arra-oracle-v3), and a skills CLI

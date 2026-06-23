@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: watch
 description: '[lab] v26.5.16 L-SKLL | Extract YouTube video transcripts via yt-dlp and pipe to /learn. Use when user says "watch", "youtube", "video", "transcript", or shares a YouTube URL.'
 argument-hint: "<youtube-url> [--raw | --learn | --summary]"

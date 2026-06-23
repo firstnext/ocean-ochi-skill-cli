@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: inbox
 description: '[lab] v26.5.16 L-SKLL | Read and write to Oracle inbox — notes, tasks, messages, handoffs. Use when user says "inbox", "leave a note", "write to inbox", "check inbox", "what''s pending", or wants to read/write messages for self or other agents. Do NOT trigger for session handoffs (use /forward), schedule (use /schedule), or agent messaging (use /talk-to).'
 argument-hint: "[read | write <topic> | ls | clean]"

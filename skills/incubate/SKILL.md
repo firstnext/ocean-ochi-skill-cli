@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: incubate
 description: '[core] v26.5.16 L-SKLL | Clone or create repos for active development — the right hand of /learn. Workflow modes — default (long-term dev), --flash (issue → PR → offload), --contribute (fork + multi-PR). Use when user says "incubate [repo]", "work on [repo]", "clone for dev", or wants to set up a dev workflow. Do NOT trigger for study/exploration (use /learn), finding projects (use /trace), or session mining (use /dig).'
 argument-hint: "<repo-url|slug|name> [--flash | --contribute | --status | --offload]"

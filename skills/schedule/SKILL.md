@@ -1,6 +1,6 @@
 ---
 installer: arra-oracle-skills-cli v26.5.16
-origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code — Soul Brews Studio
+origin: Nat Weerawan's brain, digitized — how one human works with AI, captured as code
 name: schedule
 description: '[lab] v26.5.16 L-SKLL | Query schedule via Oracle API (Drizzle DB). Use when user says "schedule", "upcoming events", "what''s on today", "calendar".'
 argument-hint: "[today | tomorrow | week]"
