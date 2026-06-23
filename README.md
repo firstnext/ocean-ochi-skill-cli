@@ -5,6 +5,8 @@ CLI สำหรับติดตั้ง **Oracle skills** + **company skills
 
 > ⚠️ **ต้องใช้ [Bun](https://bun.sh)** — bin เป็น TypeScript + shebang `#!/usr/bin/env bun` เรียกผ่าน `bunx --bun` ไม่ใช่ `npx`
 
+> 👉 **ทีมอ่านวิธีใช้งานแบบ step-by-step ได้ที่ [USAGE.md](./USAGE.md)**
+
 ---
 
 ## 📦 วิธีติดตั้งแบบ "ไม่ต้องลงโปรแกรม" (offline / เครื่องบริษัทล็อก)
