@@ -51,12 +51,6 @@ bun run src/cli/index.ts install -p lab -y
 # bunx --bun ocean-ochi-skill-cli install -p lab -y
 ```
 
-คำสั่งด้านบนเทียบเท่ากับ:
-
-```bash
-arra-oracle-skills@26.5.16 install -g --profile lab --agent claude-code -y
-```
-
 ## `install` options
 
 | Option | Default | คำอธิบาย |
